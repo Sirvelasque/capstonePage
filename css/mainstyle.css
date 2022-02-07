@@ -1,1 +1,21 @@
+:root {
+  --dark: #272a31;
+  --red: #ec5242;
+  --gray: #d3d3d3;
+}
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#nav_options {
+  width: 100%;
+  background-color: var(--dark);
+}
+
+#navBar {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
