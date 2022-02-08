@@ -9,13 +9,21 @@ nav {
   flex-wrap: wrap;
 }
 
-#nav_options {
+#desktop_nav {
+  display: none;
+}
+
+.nav_options {
   width: 100%;
   background-color: var(--dark);
 }
 
-#navBar {
+.navBar {
   display: flex;
   width: 100%;
   background-color: #fff;
+}
+/* mobile nav */
+#mobile_nav {
+  display: flex;
 }
