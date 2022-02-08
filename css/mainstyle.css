@@ -97,4 +97,22 @@ nav {
   flex-wrap: nowrap;
 }
 
+#headline {
+  margin: 100px 30px;
+}
 
+h1 {
+  background-image: url(../img/h1Bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  font-size: 40px;
+}
+
+.head_sup_text {
+  border: 1px solid #fff;
+}
