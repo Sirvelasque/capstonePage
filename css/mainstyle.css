@@ -9,6 +9,19 @@ nav {
   flex-wrap: wrap;
 }
 
+.out {
+  left:-105vw;
+}
+
+.nav-btn {
+  font-weight: bolder;
+  color: #535353;
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  font-size: 40px;
+}
+
 #desktop_nav {
   display: none;
 }
@@ -25,5 +38,63 @@ nav {
 }
 /* mobile nav */
 #mobile_nav {
+  position: fixed;
   display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+  padding-top: 20px;
 }
+
+#mobile_navBar {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 60vh;
+}
+
+#mobile_navBar ul{
+  font-size: 24px;
+  line-height: 28px;
+  width: 50vw;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15%;
+}
+
+#mobile_navBar ul a{
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.mobile_logo {
+  display: flex;
+  height: 80px;
+  width: 50vw;
+  justify-content: flex-start;
+}
+
+#mobile_nav_options ul{
+  justify-content: center;
+  font-size: 30px;
+  line-height: 38px;
+  width: 50vw;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+#mobile_nav_options ul a{
+  text-decoration: none;
+  color: var(--gray);
+}
+
+#mobile_nav_options_list li{
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
