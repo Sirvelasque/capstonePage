@@ -172,6 +172,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
   font-size: 40px;
   margin-top: 5px;
+  font-weight: bolder;
 }
 
 h3{
@@ -207,6 +208,10 @@ h3{
   background-image: url(../img/programbg.png);
 }
 
+#program h3 {
+  margin-top: 6px;
+}
+
 .red_vector {
   background-color: var(--red);
   width: 2em;
@@ -220,6 +225,7 @@ h3{
   justify-content: space-around;
   gap: 9px;
   background-color: #fff2;
+  padding: 15px 0;
   width: 95%;
   min-height: 5em;
 }
