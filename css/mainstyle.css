@@ -225,7 +225,16 @@ h3{
 }
 
 .program_icon {
-  min-width: 3.8em;
+  margin: 0.5em 1em;
+  min-width: 3.2em;
   height: 3.8em;
+}
+
+.program_title {
+  font-size: 18px;
+  color: #ec5242;
+  font-weight: bold;
+  min-width: 4.2em;
+  margin: 0.5em;
 }
 
