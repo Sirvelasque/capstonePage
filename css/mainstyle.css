@@ -208,10 +208,6 @@ h3{
   background-image: url(../img/programbg.png);
 }
 
-#program h3 {
-  margin-top: 6px;
-}
-
 .red_vector {
   background-color: var(--red);
   width: 2em;
@@ -244,3 +240,16 @@ h3{
   margin: 0.5em;
 }
 
+#Program-btn {
+  font-size: 1.3em;
+  border: none;
+  background-color: var(--red);
+  color: #fff;
+  width: 70%;
+  height: 80px;
+  margin: 40px
+}
+
+.active {
+  display: flex;
+}
