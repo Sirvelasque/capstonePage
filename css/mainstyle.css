@@ -259,6 +259,12 @@ h3{
   gap: 12px;
 }
 
+.sponsors h3 {
+  color: var(--gray);
+  font-size: 22px;
+  line-height: 28px;
+}
+
 .logos {
   display: flex;
   flex-wrap: wrap;
