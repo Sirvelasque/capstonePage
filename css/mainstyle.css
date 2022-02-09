@@ -278,6 +278,31 @@ h3{
   max-height: 120px;
 }
 
+.copy_right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.footerItem {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 50%;
+  align-items: center;
+  justify-content: center;
+  max-height: 140px;
+}
+
+.footerItem img {
+  max-height: 50px;
+}
+
+.footerItem h3 {
+  margin-top: 0;
+}
+
 .active {
   display: flex;
 }
