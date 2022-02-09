@@ -39,17 +39,18 @@ nav {
 /* mobile nav */
 #mobile_nav {
   position: fixed;
-  display: none;
   width: 100vw;
   height: 100vh;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding-top: 0 20px;
 }
 
 #mobile_navBar {
+  position: relative;
+  top:0;
   display: flex;
   flex-direction: row-reverse;
-  height: 75vh;
+  height: 82vh;
 }
 
 #mobile_navBar ul{
@@ -264,14 +265,14 @@ h3{
   justify-content: space-around;
 }
 
-.sponsor {
+.logos img {
   max-width: 30%;
-  max-height: 80px ;
+  max-height: 80px;
+  margin: 20px 0;
 }
 
 .unity {
   max-height: 120px;
-  margin-top: 20px;
 }
 
 .unreal {
@@ -301,6 +302,14 @@ h3{
 
 .footerItem h3 {
   margin-top: 0;
+}
+
+.x_Icon {
+  left: 95%;
+}
+
+.noactive {
+  display: none;
 }
 
 .active {
