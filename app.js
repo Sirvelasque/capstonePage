@@ -87,7 +87,7 @@ features.innerHTML += `
 <div class="speakers">
 `;
 
-for (let index=0; index <cards.length ; index+=1 ) {
+for (let index = 0; index < cards.length ;index += 1) {
   asignValues(index);
   template(index);
 }
