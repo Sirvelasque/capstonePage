@@ -212,3 +212,27 @@ h1 {
 .head_content a{
   color: #272a31;
 }
+
+.past_submmit,
+.logo_info {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 2px;
+  background-color: #fff;
+}
+
+.logo_info h2 {
+  width: 75%;
+  text-align: center;
+  padding-left: 15%;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.submmit {
+  background-image: url(../img/about2013.png);
+  padding: 60px 20px;
+}
