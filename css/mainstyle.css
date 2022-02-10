@@ -44,7 +44,7 @@ nav {
 /* mobile nav */
 #mobile_nav {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   flex-wrap: wrap;
   padding-top: 0 20px;
@@ -340,7 +340,7 @@ h3{
 }
 
 #features {
-  max-width: 99vw;
+  max-width: 100;
   background-color: #f8f8f8;
   align-items: center;
   padding: 20px 0;
