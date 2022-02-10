@@ -177,3 +177,38 @@ nav {
   top: -200px;
   left: 65%;
 }
+
+h1 {
+  color: var(--red);
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  font-size: 40px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+
+.headText {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.headText h3 {
+  color: var(--red);
+}
+
+.head_sup_text {
+  border: 2px solid #f1f1f1;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.head_content {
+  text-align: center;
+}
+
+.head_content a{
+  color: #272a31;
+}
