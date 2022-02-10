@@ -10,7 +10,7 @@ nav {
 }
 
 .out {
-  left:-105vw;
+  left: -105vw;
 }
 
 .Campaign-btn {
@@ -41,24 +41,28 @@ nav {
   width: 100%;
   background-color: #fff;
 }
+
+.seeprogram a{
+  color: #fff;
+}
+
 /* mobile nav */
 #mobile_nav {
   position: fixed;
   width: 100%;
   height: 100vh;
   flex-wrap: wrap;
-  padding-top: 0 20px;
 }
 
 #mobile_navBar {
   position: relative;
-  top:0;
+  top: 0;
   display: flex;
   flex-direction: row-reverse;
   height: 82vh;
 }
 
-#mobile_navBar ul{
+#mobile_navBar ul {
   font-size: 24px;
   line-height: 28px;
   width: 50vw;
@@ -69,7 +73,7 @@ nav {
   gap: 15%;
 }
 
-#mobile_navBar ul a{
+#mobile_navBar ul a {
   text-decoration: none;
   color: var(--dark);
 }
@@ -81,25 +85,23 @@ nav {
   justify-content: flex-start;
 }
 
-#mobile_nav_options ul{
+#mobile_nav_options ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   font-size: 30px;
   line-height: 38px;
   width: 50vw;
   list-style: none;
-  display: flex;
   justify-content: flex-start;
   gap: 10%;
 }
 
-#mobile_nav_options ul a{
+#mobile_nav_options ul a {
   text-decoration: none;
   color: var(--gray);
 }
 
-#mobile_nav_options_list li{
+#mobile_nav_options_list li {
   margin-top: 20px;
   white-space: nowrap;
   display: flex;
@@ -109,7 +111,8 @@ nav {
 #headline {
   margin: 100px 20px;
 }
- /* ----head background */
+
+/* ----head background */
 .head_background {
   color: #ddd;
   background-color: #f8f8f8;
@@ -132,7 +135,8 @@ nav {
   width: 100%;
   height: 100%;
 }
-.bgicon{
+
+.bgicon {
   width: 30px;
 }
 
@@ -160,7 +164,7 @@ nav {
   left: 30%;
 }
 
-.mouseIcon{
+.mouseIcon {
   position: relative;
   top: -200px;
   left: 65%;
@@ -174,23 +178,22 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  font-weight: 800;
   -webkit-font-smoothing: antialiased;
   font-size: 40px;
   margin-top: 5px;
   font-weight: bolder;
 }
 
-h3{
+h3 {
   margin-bottom: 0;
 }
 
-#headline h4{
+#headline h4 {
   margin: 5px 0;
   color: #545454;
 }
 
-#headline h2{
+#headline h2 {
   margin: 20px 0;
   color: #545454;
   font-size: 38px;
@@ -202,7 +205,7 @@ h3{
   background-color: #f8f8f8;
 }
 
-/*---program section*/
+/* ---program section */
 #program {
   gap: 15px;
   display: flex;
@@ -215,10 +218,6 @@ h3{
 
 .seeprogram {
   display: none;
-}
-
-.seeprogram a{
-  color: #fff;
 }
 
 .program {
@@ -373,7 +372,7 @@ h3{
   justify-content: flex-end;
 }
 
-.speaker_img img{
+.speaker_img img{ 
   max-width: 90%;
   max-height: 90%;
 }

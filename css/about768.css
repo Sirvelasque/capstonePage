@@ -1,10 +1,10 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   #desktop_nav {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  
+
   #bars {
     display: none;
   }
@@ -16,7 +16,7 @@
     height: 80px;
     width: 100%;
   }
-  
+
   #desktop_navBar ul {
     width: 75%;
     align-items: center;
@@ -31,13 +31,17 @@
 
   #desktop_nav_options_list li {
     white-space: nowrap;
+    margin-top: 2px;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
   }
-  
-  #desktop_navBar ul a{
+
+  #desktop_navBar ul a {
     text-decoration: none;
     color: var(--dark);
   }
-  
+
   .Logo {
     margin-left: 10%;
     align-items: center;
@@ -57,8 +61,8 @@
     height: 50px;
     width: 100%;
   }
-  
-  #desktop_nav_options ul{
+
+  #desktop_nav_options ul {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -70,17 +74,10 @@
     justify-content: flex-end;
     gap: 20px;
   }
-  
-  #desktop_nav_options ul a{
+
+  #desktop_nav_options ul a {
     text-decoration: none;
     color: var(--gray);
-  }
-  
-  #desktop_nav_options_list li{
-    margin-top: 2px;
-    white-space: nowrap;
-    display: flex;
-    flex-wrap: nowrap;
   }
 
   .headText h3 {
@@ -90,7 +87,7 @@
   .headText {
     display: flex;
   }
-  
+
   .headText .red_vector {
     display: block;
   }
@@ -100,7 +97,7 @@
     line-height: 58px;
   }
 
-  .logo_info h2{
+  .logo_info h2 {
     padding: 0;
   }
 
@@ -124,12 +121,11 @@
     margin: 20px 20px;
     width: 100%;
   }
-  
+
   .pastAccess {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 50%;
   }
-
 }
