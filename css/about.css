@@ -117,3 +117,63 @@ nav {
 .x_Icon {
   left: 95%;
 }
+
+#headline {
+  margin: 100px 20px;
+}
+ /* ----head background */
+.head_background {
+  color: #ddd;
+  background-color: #f8f8f8;
+  z-index: -1;
+  position: absolute;
+  font-size: 28px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80vh;
+}
+
+.top_bg {
+  max-width: 100%;
+  height: 25vh;
+  filter: opacity(60%) grayscale(100%) brightness(100%);
+}
+
+.top_bg img {
+  width: 100%;
+  height: 100%;
+}
+.bgicon{
+  width: 30px;
+}
+
+.circleIcon {
+  position: absolute;
+  top: 220px;
+  right: 5%;
+}
+
+.skullIcon {
+  position: relative;
+  top: 30%;
+  left: 80%;
+}
+
+.skullIcon2 {
+  position: relative;
+  top: 80px;
+  left: 15px;
+}
+
+.gamepadIcon {
+  position: relative;
+  top: 50px;
+  left: 30%;
+}
+
+.mouseIcon{
+  position: relative;
+  top: -200px;
+  left: 65%;
+}
