@@ -1,0 +1,119 @@
+:root {
+  --dark: #272a31;
+  --red: #ec5242;
+  --gray: #d3d3d3;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.out {
+  left:-105vw;
+}
+
+.Campaign-btn {
+  padding: 10px;
+  border: 4px solid var(--red);
+}
+
+.nav-btn {
+  font-weight: bolder;
+  color: #535353;
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  font-size: 40px;
+}
+
+#desktop_nav {
+  display: none;
+}
+
+.nav_options {
+  width: 100%;
+  background-color: var(--dark);
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+/* mobile nav */
+#mobile_nav {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+  padding-top: 0 20px;
+}
+
+#mobile_navBar {
+  position: relative;
+  top:0;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 82vh;
+}
+
+#mobile_navBar ul{
+  font-size: 24px;
+  line-height: 28px;
+  width: 50vw;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15%;
+}
+
+#mobile_navBar ul a{
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.mobile_logo {
+  display: flex;
+  height: 80px;
+  width: 50vw;
+  justify-content: flex-start;
+}
+
+#mobile_nav_options ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 38px;
+  width: 50vw;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+#mobile_nav_options ul a{
+  text-decoration: none;
+  color: var(--gray);
+}
+
+#mobile_nav_options_list li{
+  margin-top: 20px;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.noactive {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.x_Icon {
+  left: 95%;
+}

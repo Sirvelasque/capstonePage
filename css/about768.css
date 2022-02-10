@@ -1,0 +1,85 @@
+@media screen and (min-width: 768px){
+  #desktop_nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #bars {
+    display: none;
+  }
+
+  #desktop_navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 80px;
+    width: 100%;
+  }
+  
+  #desktop_navBar ul {
+    width: 75%;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4%;
+  }
+
+  #desktop_nav_options_list li {
+    white-space: nowrap;
+  }
+  
+  #desktop_navBar ul a{
+    text-decoration: none;
+    color: var(--dark);
+  }
+  
+  .Logo {
+    margin-left: 10%;
+    align-items: center;
+    display: flex;
+    max-height: 100%;
+    justify-content: flex-end;
+  }
+
+  .Logo img {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 40%;
+    max-height: 40%;
+  }
+
+  #desktop_nav_options {
+    height: 50px;
+    width: 100%;
+  }
+  
+  #desktop_nav_options ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  #desktop_nav_options ul a{
+    text-decoration: none;
+    color: var(--gray);
+  }
+  
+  #desktop_nav_options_list li{
+    margin-top: 2px;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}

@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>About</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Lato:wght@400;900&family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/about.css"/>
-    <link rel="stylesheet" href="css/normalice.css"/>
-    <link rel="stylesheet" href="css/main768.css"/>
+    <link rel="stylesheet" href="../css/about.css"/>
+    <link rel="stylesheet" href="../css/normalice.css"/>
+    <link rel="stylesheet" href="../css/about768.css"/>
 
     <script
       src="https://kit.fontawesome.com/4b008e04c9.js"
@@ -18,6 +18,59 @@
     ></script>
   </head>
   <body>
+    <header>
+      <nav>
+        <!--desktop navbar-->
+        <div id="desktop_nav">
+          <div id="desktop_nav_options" class="nav_options">
+            <ul id="desktop_nav_options_list">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"> Language </a></li>
+              <li> <a href="#"> My page </a></li>
+              <li> <a href="#"> Logout </a></li>
+            </ul>
+          </div>
+          <div id="desktop_navBar" class="navBar">
+            <div class="Logo"><a href="index.html"><img src="../img/logo.png" alt="Trampoline Dev Logo"></a></div>
+            <ul id="navBar_list">
+              <li><a href="html/about.html">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+              <li class="Campaign-btn"><a href="#">TD Campaign</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--mobile navbar-->
+        <div id="mobile_nav" class="noactive">
+          <div id="mobile_navBar" class="navBar">
+            <div class="mobile_logo"><a href="index.html"><img src="../img/logo.png" alt="Trampoline Dev Logo"></a></div>
+            <ul id="mobile_navBar_list">
+              <li><a href="html/about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Program</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Join</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Sponsor</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> News</a></li>
+              <li class="Campaign-btn"><a href="#">TD Campaign</a></li>
+            </ul>
+          </div>
+          <div id="mobile_nav_options" class="nav_options">
+            <ul id="mobile_nav_options_list">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"> Language </a></li>
+              <li> <a href="#"> My page </a></li>
+              <li> <a href="#"> Logout </a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="bars" class="nav-btn"><i id="barsIcon" class="fas fa-bars"></i></div>
+      </nav>
+    </header>
 
+
+    <script src="../app.js"></script>
   </body>
 </html>
