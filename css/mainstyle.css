@@ -13,6 +13,11 @@ nav {
   left:-105vw;
 }
 
+.Campaign-btn {
+  padding: 10px;
+  border: 4px solid var(--red);
+}
+
 .nav-btn {
   font-weight: bolder;
   color: #535353;
@@ -113,12 +118,12 @@ nav {
   font-size: 28px;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 99vw;
   height: 80vh;
 }
 
 .top_bg {
-  width: 100vw;
+  max-width: 100%;
   height: 25vh;
   filter: opacity(60%) grayscale(100%) brightness(100%);
 }
@@ -321,13 +326,14 @@ h3{
 }
 
 #features {
+  max-width: 99vw;
   background-color: #f8f8f8;
   align-items: center;
   padding: 20px 0;
 }
 
 .features_container {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
