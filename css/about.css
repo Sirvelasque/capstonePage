@@ -130,7 +130,7 @@ nav {
   font-size: 28px;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 80vh;
 }
 
@@ -240,7 +240,11 @@ body {
   background-image: url(../img/about2013.png);
   padding: 60px 20px;
   margin: 10px 0;
-  width: 75%;
+  width: 100%;
+}
+
+.past_access {
+  width: 80%;
 }
 
 .submmit a{
@@ -311,4 +315,8 @@ body {
 
 .footerItem h3 {
   margin-top: 0;
+}
+
+.headText .red_vector {
+  display: none;
 }
