@@ -67,9 +67,10 @@ function asignValues(index){
   cardText = cards[index].cardText;
 }
 
-featuresContainer.innerHTML += `
+features.innerHTML += `
 <h2>Featured Speakers</h2>
 <div class="red_vector"></div>
+<div class="speakers">
 `;
 
 for(index in cards){
