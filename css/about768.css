@@ -30,7 +30,6 @@
   }
 
   #desktop_nav_options_list li {
-    white-space: nowrap;
     margin-top: 2px;
     white-space: nowrap;
     display: flex;
@@ -70,7 +69,6 @@
     line-height: 18px;
     width: 80%;
     list-style: none;
-    display: flex;
     justify-content: flex-end;
     gap: 20px;
   }

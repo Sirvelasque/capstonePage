@@ -32,7 +32,6 @@
   #desktop_nav_options_list li {
     white-space: nowrap;
     margin-top: 2px;
-    white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
   }
@@ -119,7 +118,7 @@
     text-align: center;
     padding: 10px;
   }
-  
+
   .program_text {
     font-size: 12px;
   }
@@ -132,7 +131,7 @@
   }
 
   #Program-btn {
-    display: none; 
+    display: none;
   }
 
   .features_container {
@@ -142,7 +141,7 @@
   }
 
   .speaker {
-    min-height: 180px; 
+    min-height: 180px;
     min-width: 442px;
     max-width: 35%;
   }
@@ -161,4 +160,3 @@
     max-height: 60px;
   }
 }
-

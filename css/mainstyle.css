@@ -42,7 +42,7 @@ nav {
   background-color: #fff;
 }
 
-.seeprogram a{
+.seeprogram a {
   color: #fff;
 }
 
@@ -272,7 +272,7 @@ h3 {
   color: #fff;
   width: 70%;
   height: 80px;
-  margin: 40px
+  margin: 40px;
 }
 
 .sponsors {
@@ -339,7 +339,7 @@ h3 {
 }
 
 #features {
-  max-width: 100;
+  max-width: 100%;
   background-color: #f8f8f8;
   align-items: center;
   padding: 20px 0;
@@ -354,7 +354,6 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 25px;
-  
 }
 
 .speaker {
@@ -372,7 +371,7 @@ h3 {
   justify-content: flex-end;
 }
 
-.speaker_img img{ 
+.speaker_img img {
   max-width: 90%;
   max-height: 90%;
 }

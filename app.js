@@ -1,6 +1,6 @@
 const bars = document.getElementById('bars');
 const menu = document.getElementById('mobile_nav');
-const bars_icon = document.getElementById('barsIcon');
+const barsIcon = document.getElementById('barsIcon');
 const features = document.getElementById('features');
 const featuresContainer = document.createElement('div');
 
@@ -9,9 +9,9 @@ featuresContainer.classList.add('features_container');
 function toggleNavManu() {
   menu.classList.toggle('active');
   menu.classList.toggle('noactive');
-  bars.classList.toggle('x_Icon')
-  bars_icon.classList.toggle('fa-times');
-  bars_icon.classList.toggle('fa-bars');
+  bars.classList.toggle('x_Icon');
+  barsIcon.classList.toggle('fa-times');
+  barsIcon.classList.toggle('fa-bars');
 }
 
 bars.addEventListener('click', toggleNavManu);
@@ -52,15 +52,15 @@ const cards = [
     name: 'Ryan Merkley',
     intro: 'CEO of creative Commons, ex COO of the Mozilla Foundation',
     cardText: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open source move-ment.',
-  }
+  },
 ];
 
 let image;
 let Name;
 let intro;
 let cardText;
-//asign values function
-function asignValues(index){
+//  asign values function
+function asignValues(index) {
   image = cards[index].img;
   Name = cards[index].name;
   intro = cards[index].intro;
@@ -73,7 +73,7 @@ features.innerHTML += `
 <div class="speakers">
 `;
 
-for(index in cards){
+for(let index in cards) {
   asignValues(index);
   featuresContainer.innerHTML += `
   <div class="speaker">
