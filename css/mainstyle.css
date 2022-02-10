@@ -191,10 +191,10 @@ h3{
 }
 
 #headline h2{
-  margin: 10px 0;
+  margin: 20px 0;
   color: #545454;
-  font-size: 30px;
-  line-height: 34px;
+  font-size: 38px;
+  line-height: 42px;
 }
 
 .head_sup_text {
@@ -212,6 +212,13 @@ h3{
   background-color: #272a31;
   color: #fff;
   background-image: url(../img/programbg.png);
+}
+
+.program {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .red_vector {
