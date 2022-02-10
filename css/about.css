@@ -215,8 +215,11 @@ h1 {
 
 .past_submmit,
 .logo_info {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
+  align-items: center;
   padding: 20px;
   margin-top: 2px;
   background-color: #fff;
@@ -233,6 +236,16 @@ body {
 }
 
 .submmit {
+  color: #d3d3d3;
+  font-weight: bolder;
   background-image: url(../img/about2013.png);
   padding: 60px 20px;
+  margin: 10px 0;
+  width: 75%;
+}
+
+.red_vector {
+  background-color: var(--red);
+  width: 2em;
+  height: 1px;
 }
