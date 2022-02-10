@@ -67,7 +67,7 @@ function asignValues(index) {
   cardText = cards[index].cardText;
 }
 
-function template(index){
+function template() {
   featuresContainer.innerHTML += `
   <div class="speaker">
     <div class="speaker_img"><img src="${image}" alt="speaker picture"></div>
@@ -87,7 +87,7 @@ features.innerHTML += `
 <div class="speakers">
 `;
 
-for (let index in cards) {
+for (let index=0; index <cards.length ; index+=1 ) {
   asignValues(index);
   template(index);
 }
