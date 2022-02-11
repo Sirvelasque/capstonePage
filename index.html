@@ -3,14 +3,165 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Walter Velasquez</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Lato:wght@400;900&family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/mainstyle.css"/>
+    <link rel="stylesheet" href="css/normalice.css"/>
+    <link rel="stylesheet" href="css/main768.css"/>
+
     <script
       src="https://kit.fontawesome.com/4b008e04c9.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-  
+    <header>
+      <nav>
+        <!--desktop navbar-->
+        <div id="desktop_nav">
+          <div id="desktop_nav_options" class="nav_options">
+            <ul id="desktop_nav_options_list">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"> Language </a></li>
+              <li> <a href="#"> My page </a></li>
+              <li> <a href="#"> Logout </a></li>
+            </ul>
+          </div>
+          <div id="desktop_navBar" class="navBar">
+            <div class="Logo"><a href="index.html"><img src="img/logo.png" alt="Trampoline Dev Logo"></a></div>
+            <ul id="navBar_list">
+              <li><a href="html/about.html">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+              <li class="Campaign-btn"><a href="#">TD Campaign</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--mobile navbar-->
+        <div id="mobile_nav" class="noactive">
+          <div id="mobile_navBar" class="navBar">
+            <div class="mobile_logo"><a href="index.html"><img src="img/logo.png" alt="Trampoline Dev Logo"></a></div>
+            <ul id="mobile_navBar_list">
+              <li><a href="html/about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Program</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Join</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Sponsor</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> News</a></li>
+              <li class="Campaign-btn"><a href="#">TD Campaign</a></li>
+            </ul>
+          </div>
+          <div id="mobile_nav_options" class="nav_options">
+            <ul id="mobile_nav_options_list">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"> Language </a></li>
+              <li> <a href="#"> My page </a></li>
+              <li> <a href="#"> Logout </a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="bars" class="nav-btn"><i id="barsIcon" class="fas fa-bars"></i></div>
+      </nav>
+    </header>
+
+    <!--headline  -->
+
+    <section id="headline">
+      <!--backgrounfd-->
+      <div class="head_background">
+        <div class="top_bg">
+          <img src="img/bg.png" alt="background image">
+        </div>
+        <div class="gamepadIcon bgicon"><i class="fab fa-discord"></i></div>
+        <div class="mouseIcon bgicon"><i class="fas fa-mouse"></i></div>
+        <div class="skullIcon bgicon"><i class="fas fa-skull"></i></div>
+        <div class="skullIcon2 bgicon"><i class="fab fa-playstation"></i></div>
+        <div class="circleIcon "><img src="img/circleIcon.PNG" alt=""></div>
+      </div>
+
+      <div class="head_content">
+        <div class="headText">
+          <h3>"Hello! shering world"</h3>
+          <h1>Trampoline Dev Global Submit <br/> 2022</h1>
+       </div>
+       <div class="head_sup_text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi odit
+          architecto, quis consectetur laborum dolorem voluptatem officiis! </div>
+       <h2>2022.02.10(THU) ~ 11(FRI)</h2>
+       <h4>@Global assembly, Game development and more</h4>  
+      </div>   
+    </section>
+
+    <!--Program Section-->
+
+    <section id="program">
+      <h3>Main Program</h3>
+      <div class="red_vector"></div>
+      <div class="program">
+      <div class="lecture program_item">
+        <div class="program_icon"><img src="img/lecture.png" alt="lecture icon"></div>
+        <div class="program_title">Lecture</div>
+        <div class="program_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic excepturi, possimus expedita cum nisi
+        </div>
+      </div>
+      <div class="exhibition program_item">
+        <div class="program_icon"><img src="img/exhibition.png" alt="echibition icon"></div>
+        <div class="program_title">DT Exhibition</div>
+        <div class="program_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic excepturi, possimus expedita cum nisi
+        </div>
+      </div>
+      <div class="forum program_item">
+        <div class="program_icon"><img src="img/forum.png" alt="forum icon"></div>
+        <div class="program_title">Forum</div>
+        <div class="program_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic excepturi, possimus expedita cum nisi
+        </div>
+      </div>
+      <div class="workshop program_item">
+        <div class="program_icon"><img src="img/workshop.png" alt="workshop icon"></div>
+        <div class="program_title">Workshop</div>
+        <div class="program_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic excepturi, possimus expedita cum nis
+        </div>
+      </div>
+      <div class="ignite program_item">
+        <div class="program_icon"><img src="img/ignite.png" alt="ignite icon"></div>
+        <div class="program_title">Ignite</div>
+        <div class="program_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic excepturi, possimus expedita cum nisi
+        </div>
+      </div>
+    </div>
+
+      <button id="Program-btn">Join TD Global Summit 2022</button>
+      <div class="seeprogram"><a href="#">Se the whole program</a></div>
+    </section>
+    <!--feature spekear-->
+    <section id="features">
+    </section>
+
+    <footer>
+      <div class="sponsors">
+        <h3>Partner</h3>
+        <div class="red_vector"></div>
+        <div class="logos">
+          <img src="img/mozilla.png" alt="mozilla" class="sponsor">
+          <img src="img/Google.png" alt="Google" class="sponsor">
+          <img src="img/navar.png" alt="Naver" class="sponsor">
+          <img src="img/Unity-logo.png" alt="3D Unity" class="sponsor unity">
+          <img src="img/UnrealEngine-logo.png" alt="Unreal Engine" class="sponsor unreal">
+        </div>
+      </div>
+      <div class="copy_right">
+        <div class="footerItem">
+          <img src="img/footerlogo.png" alt="footer logo">
+          <h3>Trampoline <br/> Dev Honduras</h3>
+        </div>
+        <div class="footerItem">2022 Trampoline Dev Honduras <br/> some Rights Reserved</div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>

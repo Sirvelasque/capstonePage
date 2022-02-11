@@ -1,0 +1,165 @@
+@media screen and (min-width: 768px) {
+  #desktop_nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #bars {
+    display: none;
+  }
+
+  #desktop_navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 80px;
+    width: 100%;
+  }
+
+  #desktop_navBar ul {
+    width: 75%;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4%;
+  }
+
+  #desktop_nav_options_list li {
+    white-space: nowrap;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  #desktop_navBar ul a {
+    text-decoration: none;
+    color: var(--dark);
+  }
+
+  .Logo {
+    margin-left: 10%;
+    align-items: center;
+    display: flex;
+    max-height: 100%;
+    justify-content: flex-end;
+  }
+
+  .Logo img {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 40%;
+    max-height: 40%;
+  }
+
+  #desktop_nav_options {
+    height: 50px;
+    width: 100%;
+  }
+
+  #desktop_nav_options ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    width: 80%;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  #desktop_nav_options ul a {
+    text-decoration: none;
+    color: var(--gray);
+  }
+
+  #headline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .head_content {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 68px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+  .head_sup_text {
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 25px;
+  }
+
+  .program {
+    margin: 40px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .program_item {
+    flex-direction: column;
+    width: 190px;
+    height: 190px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .program_text {
+    font-size: 12px;
+  }
+
+  .seeprogram {
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  #Program-btn {
+    display: none;
+  }
+
+  .features_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .speaker {
+    min-height: 180px;
+    min-width: 442px;
+    max-width: 35%;
+  }
+
+  .speaker_img {
+    background-image: url(../img/square_desk.png);
+  }
+
+  .speaker_img img {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .logos {
+    gap: 40px;
+  }
+
+  .logos img {
+    min-height: 30px;
+    max-height: 60px;
+  }
+}
