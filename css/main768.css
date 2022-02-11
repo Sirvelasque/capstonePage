@@ -134,8 +134,8 @@
     display: none;
   }
 
+
   .features_container {
-    padding: 20px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -144,6 +144,10 @@
     min-height: 180px;
     min-width: 442px;
     max-width: 35%;
+  }
+
+  .speaker_img {
+    background-image: url(../img/square_desk.png);
   }
 
   .speaker_img img {

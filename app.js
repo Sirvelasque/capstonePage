@@ -70,7 +70,7 @@ function asignValues(index) {
 function template() {
   featuresContainer.innerHTML += `
   <div class="speaker">
-    <div class="speaker_img"><img src="${image}" alt="speaker picture"></div>
+    <div class="speaker_img"><div class="square-bg"></div><img src="${image}" alt="speaker picture"></div>
     <div class="cardText">
       <div class="name">${Name}</div>
       <div class="title">${intro}</div>
