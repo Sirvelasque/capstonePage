@@ -272,6 +272,7 @@ body {
 }
 
 .logos {
+  gap: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -302,13 +303,25 @@ body {
   margin: 50px 0;
   display: flex;
   flex-wrap: nowrap;
-  min-width: 50%;
   align-items: center;
   justify-content: center;
   max-height: 140px;
 }
 
-.footerItem img {
+.footerlogo {
+  min-width: 40%;
+}
+
+.rights_text {
+  min-width: 60%;
+}
+
+.footerItem_img {
+  background-image: url(../img/footerlogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  min-height: 50px;
   max-height: 50px;
 }
 

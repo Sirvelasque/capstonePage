@@ -116,8 +116,9 @@
 
   .submmit {
     background-repeat: no-repeat;
-    margin: 20px 20px;
+    margin: 20px 20px 20px 0;
     width: 100%;
+    min-width: 240px;
   }
 
   .pastAccess {
@@ -125,5 +126,22 @@
     flex-direction: row;
     flex-wrap: nowrap;
     width: 50%;
+  }
+
+  .copy_right {
+    color: #fff;
+    background-color: #2e2e2e;
+  }
+
+  .footerItem_img {
+    background-image: url(../img/logo_dark.png);
+  }
+
+  .sponsors {
+    display: none;
+  }
+
+  footer {
+    margin-top: 50px;
   }
 }
